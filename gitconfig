@@ -1,0 +1,14 @@
+[user]
+	name = Rodrigo Flores
+	email = rodrigo.flores@plataformatec.com.br
+[core]
+	editor = mate -w
+[github]
+	user = rodrigoflores
+	token = c9fa28b016d7e0c29c228465108b5b06
+[color]
+	ui = auto
+[push]
+	default = tracking
+[branch]
+	autosetuprebase = always

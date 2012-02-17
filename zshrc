@@ -42,11 +42,15 @@ alias brs='brew search'
 
 alias b='bundle'
 alias bc='bundle check'
+alias be='bundle exec'
 
 alias gs='git status'
+alias gd='git diff'
 alias gdc='git diff --cached'
 alias gpl='git pull --rebase'
 alias gc='git commit'
+
+alias cddevise='cd /Users/flores/Code/devise'
 
 export PATH="/Users/flores/.rbenv/shims:${PATH}"
 source "/usr/local/Cellar/rbenv/0.3.0/libexec/../completions/rbenv.zsh"

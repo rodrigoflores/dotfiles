@@ -2,8 +2,8 @@
   name = Rodrigo Flores
   email = rodrigo.flores@plataformatec.com.br
 [core]
-  editor = mvim 
-  token = c9fa28b016d7e0c29c228465108b5b06
+  editor = mate -w
+  excludesfile = /Users/flores/.gitignore
 [color]
   ui = auto
 [push]
@@ -11,8 +11,23 @@
 [branch]
   autosetuprebase = always
 [alias]
-  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-  lol = log --pretty=oneline --abbrev-commit --graph --decorate
   track = checkout -t
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  dc = diff --cached
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+  ign = ls-files -o -i --exclude-standard
 [apply]
   whitespace = warn
+[github]
+  user = rodrigoflores
+  token = c9fa28b016d7e0c29c228465108b5b06
+[achievement]
+  upload = true

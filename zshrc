@@ -8,7 +8,7 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="sryche"
+ZSH_THEME="norm"
 
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
@@ -37,7 +37,7 @@ plugins=()
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$HOME/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/Users/flores/Code/elixir/bin
 
 alias br='brew'
 alias bri='brew install'
@@ -52,8 +52,11 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 alias gpl='git pull --rebase'
 alias gc='git commit'
+alias gl='git log --oneline'
 
 alias cddevise='cd /Users/flores/Code/devise'
+alias cddevisebook="cd /Users/flores/Documents/Dropbox/devisebook/manuscript"
+alias cdzlr="cd /Users/flores/Code/zlr"
 
 export PATH="/Users/flores/.rbenv/shims:${PATH}"
 source "/usr/local/Cellar/rbenv/0.3.0/libexec/../completions/rbenv.zsh"
@@ -76,4 +79,7 @@ rbenv() {
 
 export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+alias git="git-achievements"
+compdef git-achievements=git
 

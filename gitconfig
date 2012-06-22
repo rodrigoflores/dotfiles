@@ -2,7 +2,7 @@
   name = Rodrigo Flores
   email = rodrigo.flores@plataformatec.com.br
 [core]
-  editor = mate -w
+  editor = subl -w
   excludesfile = /Users/flores/.gitignore
 [color]
   ui = auto
@@ -19,7 +19,7 @@
   df = diff
   dc = diff --cached
   l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-  lg = log -p
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files

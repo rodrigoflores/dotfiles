@@ -8,7 +8,7 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="norm"
+ZSH_THEME="steeef"
 
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
@@ -37,7 +37,7 @@ plugins=()
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/Users/flores/Code/elixir/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/usr/local/sbin
 
 alias br='brew'
 alias bri='brew install'
@@ -54,7 +54,7 @@ alias gpl='git pull --rebase'
 alias gc='git commit'
 alias gl='git log --oneline'
 
-alias cddevise='cd /Users/flores/Code/devise'
+alias cddevise='cd /Users/flores/Code/devise/devise-core'
 alias cddevisebook="cd /Users/flores/Documents/Dropbox/devisebook/manuscript"
 alias cdzlr="cd /Users/flores/Code/zlr"
 
@@ -83,3 +83,6 @@ export LANG=en_US.UTF-8
 alias git="git-achievements"
 compdef git-achievements=git
 
+export GEM_EDITOR='mate'
+
+export PATH="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome:${PATH}"

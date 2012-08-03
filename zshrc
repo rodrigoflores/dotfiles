@@ -37,7 +37,8 @@ plugins=()
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/usr/local/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/usr/local/sbin
+
 
 alias br='brew'
 alias bri='brew install'
@@ -57,6 +58,10 @@ alias gl='git log --oneline'
 alias cddevise='cd /Users/flores/Code/devise/devise-core'
 alias cddevisebook="cd /Users/flores/Documents/Dropbox/devisebook/manuscript"
 alias cdzlr="cd /Users/flores/Code/zlr"
+alias cdplacar="cd /Users/flores/Code/ptec/placar/placar"
+
+alias tailf='tail -n 100 -f'
+alias squidn='squid -N -d 1'
 
 export PATH="/Users/flores/.rbenv/shims:${PATH}"
 source "/usr/local/Cellar/rbenv/0.3.0/libexec/../completions/rbenv.zsh"
@@ -80,9 +85,9 @@ rbenv() {
 export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-alias git="git-achievements"
-compdef git-achievements=git
-
 export GEM_EDITOR='mate'
 
 export PATH="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome:${PATH}"
+
+alias git="git-achievements"
+compdef git-achievements=git

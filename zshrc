@@ -1,9 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-GIT_PS1_SHOWDIRTYSTATE=true
-GIT_PS1_SHOWUNTRACKEDFILES=true
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -37,8 +34,7 @@ plugins=()
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$HOME/bin:/Users/flores/.vim/opt/sparkup:/Users/flores/Code/git-achievements:/usr/local/sbin
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$HOME/bin:/usr/local/sbin
 
 alias br='brew'
 alias bri='brew install'
@@ -58,7 +54,8 @@ alias gl='git log --oneline'
 alias cddevise='cd /Users/flores/Code/devise/devise-core'
 alias cddevisebook="cd /Users/flores/Documents/Dropbox/devisebook/manuscript"
 alias cdzlr="cd /Users/flores/Code/zlr"
-alias cdplacar="cd /Users/flores/Code/ptec/placar/placar"
+alias cdplacarsite="cd /Users/flores/Code/ptec/placar/placar"
+alias cdplacaradmin="cd /Users/flores/Code/ptec/placar/placar-admin"
 
 alias tailf='tail -n 100 -f'
 alias squidn='squid -N -d 1'
@@ -89,5 +86,11 @@ export GEM_EDITOR='mate'
 
 export PATH="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome:${PATH}"
 
-alias git="git-achievements"
-compdef git-achievements=git
+__git_files () {
+  _wanted files expl 'local files' _files
+}
+
+source $HOME/.git-completion.sh
+
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true

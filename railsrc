@@ -1,2 +1,2 @@
---skip-bundle \
--d mysql
+--skip-bundle
+-d postgresql

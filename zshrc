@@ -4,8 +4,8 @@ compinit
 autoload -U colors
 colors
 
-source "zshrcs/aliases.zsh"
-source "zshrcs/export.zsh"
-source "zshrcs/prompt.zsh"
-source "zshrcs/rbenv.zsh"
-source "zshrcs/git.zsh"
+source .dotfiles/zshrcs/aliases.zsh
+source .dotfiles/zshrcs/export.zsh
+source .dotfiles/zshrcs/prompt.zsh
+source .dotfiles/zshrcs/rbenv.zsh
+source .dotfiles/zshrcs/git.zsh

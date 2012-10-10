@@ -9,5 +9,6 @@ source ~/.dotfiles/zshrcs/export.zsh
 source ~/.dotfiles/zshrcs/prompt.zsh
 source ~/.dotfiles/zshrcs/rbenv.zsh
 source ~/.dotfiles/zshrcs/git.zsh
-
-export PATH="$PATH:/usr/local/sbin"
+source ~/.dotfiles/zshrcs/history.zsh
+source ~/.dotfiles/zshrcs/keybindings.zsh
+source ~/.dotfiles/zshrcs/path.zsh

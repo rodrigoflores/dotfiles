@@ -21,6 +21,7 @@ alias cddevise='cd /Users/flores/Code/devise/devise-core'
 alias cddevisebook="cd /Users/flores/Documents/Dropbox/devisebook/manuscript"
 alias cdzlr="cd /Users/flores/Code/zlr"
 
+alias cdplacar="cd /Users/flores/Code/placar/placar"
 alias cdlaika="cd /Users/flores/Code/ptec/placar/laika"
 
 # Misc

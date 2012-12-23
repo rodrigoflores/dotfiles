@@ -27,3 +27,8 @@ alias cdlaika="cd /Users/flores/Code/ptec/placar/laika"
 # Misc
 alias tailf='tail -n 100 -f'
 alias squidn='squid -N -d 1'
+
+# Hub and git
+alias git='hub'
+
+setopt complete_aliases

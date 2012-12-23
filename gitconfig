@@ -31,3 +31,5 @@
   token = c9fa28b016d7e0c29c228465108b5b06
 [achievement]
   upload = true
+[credential]
+	helper = osxkeychain

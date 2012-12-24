@@ -1,0 +1,12 @@
+# Basic Settings
+#
+fontName         = "Monaco"
+fontSize         = 16
+
+spellChecking    = true
+
+myExtraIncludes = ".gitignore"
+fileBrowserGlob = "{*,$myExtraIncludes}"
+include = "{$include,$myExtraIncludes}"
+
+TM_GIT = "/usr/bin/git "

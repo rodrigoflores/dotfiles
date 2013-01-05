@@ -9,4 +9,4 @@ myExtraIncludes = ".gitignore"
 fileBrowserGlob = "{*,$myExtraIncludes}"
 include = "{$include,$myExtraIncludes}"
 
-TM_GIT = "/usr/bin/git "
+TM_GIT = "/usr/bin/git"

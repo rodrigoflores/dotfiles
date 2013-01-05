@@ -2,7 +2,7 @@
   name = Rodrigo Flores
   email = rodrigo.flores@plataformatec.com.br
 [core]
-  editor = mate -w
+  editor = subl -w
   excludesfile = /Users/flores/.gitignore
 [color]
   ui = auto

@@ -1,1 +1,1 @@
-export GEM_EDITOR='mate'
+  export GEM_EDITOR='subl'

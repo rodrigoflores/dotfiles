@@ -1,3 +1,5 @@
 .rbenv-version
+.ruby-version
 *.swp
-*.swp
+.bundle/*
+b/*

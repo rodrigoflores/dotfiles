@@ -2,6 +2,7 @@
 alias br='brew'
 alias bri='brew install'
 alias brs='brew search'
+alias bru='brew update'
 
 # Bundler
 alias b='bundle'
@@ -11,7 +12,9 @@ alias be='bundle exec'
 # Git
 alias g='git'
 
-alias gs='git status'
+alias gap='git add -p'
+
+alias gs='git s'
 
 alias gd='git diff'
 alias gdc='git diff --cached'

@@ -7,6 +7,8 @@ colors
 # UTF-8 chars
 LC_ALL="en_US.UTF-8"
 
+alias rake="noglob rake"
+
 source ~/.dotfiles/zshrcs/aliases.zsh
 source ~/.dotfiles/zshrcs/export.zsh
 source ~/.dotfiles/zshrcs/prompt.zsh

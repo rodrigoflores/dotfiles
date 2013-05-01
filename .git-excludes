@@ -3,5 +3,7 @@
 *.swp
 .bundle/*
 b/*
-vendor/*
 .DS_Store
+vendor/ruby/*
+.tags
+.tags_sorted_by_file

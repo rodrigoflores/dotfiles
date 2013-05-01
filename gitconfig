@@ -1,6 +1,6 @@
 [user]
   name = Rodrigo Flores
-  email = rodrigo.flores@plataformatec.com.br
+  email = mail@rodrigoflores.org
 [core]
   editor = subl -w
   excludesfile = /Users/flores/.gitignore

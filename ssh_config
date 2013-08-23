@@ -19,16 +19,20 @@ Host blog.rlmflores.me
 
 Host smart-app-1
   HostName ec2-54-245-83-244.us-west-2.compute.amazonaws.com
+  IdentityFile ~/.ssh/bio-ritmo
   User deploy
 
 Host smart-app-2
   HostName ec2-54-212-2-179.us-west-2.compute.amazonaws.com
+  IdentityFile ~/.ssh/bio-ritmo
   User deploy
 
 Host smart-util-1
   HostName ec2-54-245-86-198.us-west-2.compute.amazonaws.com
+  IdentityFile ~/.ssh/bio-ritmo
   User deploy
 
 Host smart-db-1
   HostName ec2-54-245-151-26.us-west-2.compute.amazonaws.com
+  IdentityFile ~/.ssh/bio-ritmo
   User deploy

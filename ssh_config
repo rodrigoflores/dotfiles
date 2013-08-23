@@ -1,3 +1,22 @@
+Host *
+  Compression yes
+  ForwardAgent yes
+  TCPKeepAlive no
+  ServerAliveInterval 20
+  ServerAliveCountMax 10
+
+Host rlmflores.me
+  User apps
+  Hostname 173.255.241.31
+
+Host zlr.com.br
+  Hostname zlr.com.br
+  User apps
+
+Host blog.rlmflores.me
+  Hostname 208.68.38.166
+  User apps
+
 Host smart-app-1
   HostName ec2-54-245-83-244.us-west-2.compute.amazonaws.com
   User deploy

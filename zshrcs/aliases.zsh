@@ -9,6 +9,9 @@ alias b='bundle'
 alias bc='bundle check'
 alias be='bundle exec'
 
+# Rails
+alias brc='b/rails c'
+
 # Git
 alias g='git'
 

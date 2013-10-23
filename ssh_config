@@ -39,6 +39,7 @@ Host smart-db-1
 
 Host fin
   Hostname fin.bioritmo.com.br
+  IdentityFile ~/.ssh/bio-ritmo
   User deploy
 
 Host nps

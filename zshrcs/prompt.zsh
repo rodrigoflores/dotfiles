@@ -8,7 +8,7 @@ export GIT_PS1_SHOWUPSTREAM="auto"
 export GIT_PS1_SHOWCOLORHINTS=1
 
 RUBY_VERSION=$(rbenv version-name)
-GIT=$(__git_ps1)
+GIT=$(__git_ps1 "[%s]")
 
 RPROMPT="$RUBY_VERSION $GIT"
 PROMPT="%~ %# "

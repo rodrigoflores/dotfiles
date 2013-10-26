@@ -1,8 +1,14 @@
-setopt prompt_subst
+autoload -U colors && colors
 
-local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
+source ~/.git-prompt.sh
 
-PROMPT='%~
-${smiley}  %{$reset_color%}'
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM=1
+export GIT_PS1_SHOWCOLORHINTS=1
 
-RPROMPT='%{$fg[white]%} $(rbenv version-name)$(~/bin/git-cwd-info)%{$reset_color%}'
+RUBY_VERSION=$(rbenv version-name)
+GIT=$(__git_ps1)
+
+RPROMPT="$RUBY_VERSION $GIT"
+PROMPT="%~ %# "

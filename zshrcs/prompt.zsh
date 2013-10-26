@@ -17,9 +17,9 @@ current_commit ()
   fi
 }
 
-RUBY_VERSION=$(rbenv version-name)
+RUBY_VERSION=
 CURRENT_COMMIT=$(current_commit)
 GIT=$(__git_ps1 "[%s]")
 
-RPROMPT="$RUBY_VERSION $GIT $CURRENT_COMMIT"
+RPROMPT="$(rbenv version-name) $(__git_ps1 "[%s]") $(current_commit)"
 PROMPT="%~ %# "

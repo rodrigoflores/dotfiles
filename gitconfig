@@ -26,6 +26,7 @@
   ign = ls-files -o -i --exclude-standard
 	ap = add -p
 	s = status -s
+  current-branch = rev-parse --abbrev-ref HEAD
 [apply]
   whitespace = warn
 [github]

@@ -1,3 +1,4 @@
+autoload -U colors && colors
 setopt prompt_subst
 
 local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"

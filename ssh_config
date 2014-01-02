@@ -32,6 +32,11 @@ Host smart-util-1
   IdentityFile ~/.ssh/bio-ritmo
   User deploy
 
+Host smart-util-2
+  HostName ec2-54-203-23-248.us-west-2.compute.amazonaws.com
+  IdentityFile ~/.ssh/bio-ritmo
+  User deploy
+
 Host smart-db-1
   HostName ec2-54-245-151-26.us-west-2.compute.amazonaws.com
   IdentityFile ~/.ssh/bio-ritmo

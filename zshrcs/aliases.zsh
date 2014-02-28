@@ -28,6 +28,10 @@ alias gc='git commit'
 
 alias gl='git log --oneline'
 
+alias grh='git reset --hard'
+
+alias gcom='git checkout master'
+
 # Misc
 alias tailf='tail -n 100 -f'
 alias squidn='squid -N -d 1'

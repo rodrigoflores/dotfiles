@@ -2,7 +2,7 @@
   name = Rodrigo Flores
   email = mail@rodrigoflores.org
 [core]
-  editor = atom -w
+  editor = subl -w
   excludesfile = /Users/flores/.gitignore
 [color]
   ui = auto

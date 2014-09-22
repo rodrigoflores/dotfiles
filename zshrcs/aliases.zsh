@@ -39,4 +39,8 @@ alias squidn='squid -N -d 1'
 # Hub and git
 alias git='hub'
 
+alias lr='lein repl'
+alias lm='lein midje'
+alias lma='lein midje :autotest'
+
 setopt complete_aliases

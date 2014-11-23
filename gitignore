@@ -2,4 +2,6 @@ b/*
 vendor/ruby/*
 .bundle/
 .DS_Store
-.rbenv-version
+.rbenv-version.idea/*
+acquisition.iml
+.idea/**/*

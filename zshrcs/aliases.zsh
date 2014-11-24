@@ -43,4 +43,8 @@ alias lr='lein repl'
 alias lm='lein midje'
 alias lma='lein midje :autotest'
 
+# Nu
+alias run-e2e-local='STACK=local SILENT=true bundle exec rspec features'
+alias run-e2e-local-verbose='STACK=local bundle exec rspec features'
+
 setopt complete_aliases

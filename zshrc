@@ -9,6 +9,10 @@ LC_ALL="en_US.UTF-8"
 
 alias rake="noglob rake"
 
+function set-title () {
+	echo -ne "\e]1;$1\a"
+}
+
 source ~/.dotfiles/zshrcs/aliases.zsh
 source ~/.dotfiles/zshrcs/export.zsh
 source ~/.dotfiles/zshrcs/prompt.zsh

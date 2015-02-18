@@ -28,6 +28,7 @@
 	s = status -s
   current-branch = rev-parse --abbrev-ref HEAD
 	coam = commit -am
+	cob = checkout -b
 [apply]
   whitespace = warn
 [github]

@@ -46,5 +46,6 @@ alias lma='lein midje :autotest'
 # Nu
 alias run-e2e-local='STACK=local SILENT=true bundle exec rspec features'
 alias run-e2e-local-verbose='STACK=local bundle exec rspec features'
+alias black-gate='sudo ssh -N -L 8443:prod-mordor.nubank.com.br:443 54.207.9.245 -l ec2-user -i ~/.ssh/keys/nat.pem -v'
 
 setopt complete_aliases

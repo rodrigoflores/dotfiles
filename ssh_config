@@ -16,3 +16,8 @@ Host zlr.com.br
 Host blog.rlmflores.me
   Hostname 208.68.38.166
   User apps
+
+Host nat
+  User ec2-user
+  HostName nat-a.nubank.com.br
+  IdentityFile ~/.ssh/keys/nat.pem

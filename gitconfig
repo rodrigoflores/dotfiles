@@ -27,6 +27,7 @@
 	ap = add -p
 	s = status -s
   current-branch = rev-parse --abbrev-ref HEAD
+	coam = commit -am
 [apply]
   whitespace = warn
 [github]

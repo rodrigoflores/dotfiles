@@ -6,3 +6,5 @@ vendor/ruby/*
 acquisition.iml
 .idea/**/*
 .DS_Store
+butlerfile
+*~

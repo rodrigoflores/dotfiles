@@ -3,7 +3,7 @@
   email = mail@rodrigoflores.org
 [core]
 	editor = emacsclient -t -a=\\\"\\\"
-  excludesfile = /Users/flores/.gitignore
+	excludesfile = /Users/rodrigo/.gitignore
 [color]
   ui = auto
 [push]
@@ -40,3 +40,7 @@
 	helper = osxkeychain
 [help]
 	autocorrect = 50
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true

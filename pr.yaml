@@ -1,0 +1,5 @@
+---
+repos:
+  - nubank/notification
+  - nubank/customers
+  - nubank/common-schemata

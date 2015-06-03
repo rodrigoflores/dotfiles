@@ -22,6 +22,7 @@ source ~/.dotfiles/zshrcs/keybindings.zsh
 source ~/.dotfiles/zshrcs/path.zsh
 source ~/.dotfiles/zshrcs/rbenv.zsh
 source ~/.dotfiles/zshrcs/fasd.zsh
+source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

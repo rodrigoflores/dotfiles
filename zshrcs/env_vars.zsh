@@ -1,5 +1,3 @@
-export DEFAULT_AWS_REGION=sa-east-1
-
 export ARTIFACTS_S3_BUCKET=nu-artifacts
 export ARTIFACTS_AWS_REGION=sa-east-1
 
@@ -22,3 +20,5 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export PR_REPOS_FILE="/Users/flores/.pr.yaml"
+
+export AWS_DEFAULT_REGION=sa-east-1

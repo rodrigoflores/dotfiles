@@ -3,7 +3,7 @@
   email = mail@rodrigoflores.org
 [core]
 	editor = emacsclient -t -a=\\\"\\\"
-	excludesfile = /Users/rodrigo/.gitignore
+	excludesfile = /Users/flores/.gitignore
 [color]
   ui = auto
 [push]

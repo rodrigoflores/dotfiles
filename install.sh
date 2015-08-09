@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cat ~/.dotfiles/dotfiles_ascii.txt
+
 echo "Starting to copy dotfiles"
 
 DOTFILES_DIR="~/.dotfiles" 

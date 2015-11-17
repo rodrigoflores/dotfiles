@@ -28,3 +28,5 @@ source ~/.dotfiles/zshrcs/export.zsh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+eval "$(docker-machine env default)"

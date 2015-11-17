@@ -2,7 +2,7 @@
   name = Rodrigo Flores
   email = mail@rodrigoflores.org
 [core]
-	editor = emacsclient -t -a=\\\"\\\"
+	editor = emacsclient -t
 	excludesfile = ~/.gitignore
 [color]
   ui = auto

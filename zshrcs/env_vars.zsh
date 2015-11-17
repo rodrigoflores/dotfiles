@@ -8,7 +8,7 @@ export PATH="$NUDEV_HOME:$PATH"
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
 
-export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.9.2-0.8.1.1"
+export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.9.2-0.8.2.1"
 export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"
 
 export DATOMIC_HOME="$NU_HOME/datomic/datomic-pro-0.9.4880.6"

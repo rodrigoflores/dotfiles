@@ -43,6 +43,8 @@ alias lr='lein repl'
 alias lrp='lein postman-repl'
 alias lm='lein midje'
 alias lma='lein midje :autotest'
+alias las='lein ancient :allow-snapshots'
+alias pc='lein midje ; lein postman ; lein ancient :allow-snapshots'
 
 # Nu
 alias run-e2e-local='STACK=local SILENT=true bundle exec rspec features'

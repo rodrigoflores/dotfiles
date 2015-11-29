@@ -1,1 +1,4 @@
 zshrcs/secrets.zsh
+
+lein/repl-history
+lein/self-installs/*

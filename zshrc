@@ -1,13 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/rodrigo/.oh-my-zsh
 
-ZSH_THEME="ys"
+ZSH_THEME="wedisagree"
 
 plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/rodrigo/Code/nu/nudev:/usr/local/opt/rbenv/shims:/Applications/Postgres93.app/Contents/MacOS/bin:/Users/rodrigo/anaconda/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin"
+export PATH="/usr/local/heroku/bin:/Users/rodrigo/Code/nu/nudev:/usr/local/opt/rbenv/shims:/Applications/Postgres93.app/Contents/MacOS/bin:/Users/rodrigo/anaconda/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin:/usr/local/Cellar/emacs/24.5/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

@@ -1,23 +1,7 @@
 Host *
   Compression yes
-  ForwardAgent yes
   TCPKeepAlive no
   ServerAliveInterval 20
   ServerAliveCountMax 10
+  UseRoaming no
 
-Host rlmflores.me
-  User apps
-  Hostname 173.255.241.31
-
-Host zlr.com.br
-  Hostname 50.57.225.89 
-  User apps
-
-Host blog.rlmflores.me
-  Hostname 208.68.38.166
-  User apps
-
-Host nat
-  User ec2-user
-  HostName nat-a.nubank.com.br
-  IdentityFile ~/.ssh/keys/nat.pem

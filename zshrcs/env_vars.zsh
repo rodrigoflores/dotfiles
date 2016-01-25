@@ -6,7 +6,7 @@ export NU_HOME="$CODE_HOME/nu"
 export NUDEV_HOME="$NU_HOME/nudev"
 export PATH="$NUDEV_HOME:$PATH"
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
 
 export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.9.2-0.8.2.1"
 export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"

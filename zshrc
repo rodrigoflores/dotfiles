@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/rodrigo/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="wedisagree"
 
@@ -35,6 +35,8 @@ source ~/.dotfiles/zshrcs/fasd.zsh
 source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 source ~/.dotfiles/zshrcs/export.zsh
+
+source ~/.nurc
 
 ### Added by the Heroku Toolbelt
 

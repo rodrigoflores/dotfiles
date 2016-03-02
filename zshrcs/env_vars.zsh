@@ -4,7 +4,7 @@ export ARTIFACTS_AWS_REGION=sa-east-1
 export CODE_HOME=~/Code
 export NU_HOME="$CODE_HOME/nu"
 export NUDEV_HOME="$NU_HOME/nudev"
-export PATH="$NUDEV_HOME:$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$NUDEV_HOME:$PATH"
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
 

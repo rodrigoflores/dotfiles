@@ -29,6 +29,7 @@
   current-branch = rev-parse --abbrev-ref HEAD
 	coam = commit -am
 	cob = checkout -b
+	zip = archive -v --format zip -o archive.zip HEAD
 [apply]
   whitespace = warn
 [github]

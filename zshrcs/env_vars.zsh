@@ -22,3 +22,5 @@ export LANG=en_US.UTF-8
 export PR_REPOS_FILE="/Users/flores/.pr.yaml"
 
 export AWS_DEFAULT_REGION=sa-east-1
+
+export SHELL=/bin/zsh

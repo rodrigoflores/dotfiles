@@ -48,3 +48,5 @@
 	required = true
 [include]
   path = ~/.dotfiles/gitconfigs/gpg_config
+[commit]
+	gpgsign = true

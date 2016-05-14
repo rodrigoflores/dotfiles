@@ -46,3 +46,5 @@
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
+[include]
+  path = ~/.dotfiles/gitconfigs/gpg_config

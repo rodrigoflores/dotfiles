@@ -3,3 +3,4 @@ zshrcs/secrets.zsh
 lein/repl-history
 lein/self-installs/*
 /lein/credentials.clj.gpg
+gitconfigs/gpg_config

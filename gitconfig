@@ -1,6 +1,6 @@
 [user]
   name = Rodrigo Flores
-  email = mail@rodrigoflores.org
+  email = rlmflores@fastmail.com
 [core]
 	editor = emacsclient -t
 	excludesfile = ~/.gitignore

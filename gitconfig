@@ -32,12 +32,6 @@
 	zip = archive -v --format zip -o archive.zip HEAD
 [apply]
   whitespace = warn
-[github]
-  user = rodrigoflores
-  token = c9fa28b016d7e0c29c228465108b5b06
-	oauth-token = 2c2d6192dfb555488e16b104dbdc6e1d98c3b564
-[achievement]
-  upload = true
 [credential]
 	helper = osxkeychain
 [help]
@@ -48,5 +42,6 @@
 	required = true
 [include]
   path = ~/.dotfiles/gitconfigs/gpg_config
+  path = ~/.dotfiles/gitconfigs/github_config
 [commit]
 	gpgsign = true

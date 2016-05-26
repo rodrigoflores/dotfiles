@@ -40,8 +40,6 @@ source ~/.nurc
 
 ### Added by the Heroku Toolbelt
 
-eval "$(docker-machine env default)"
-
 # added by travis gem
 [ -f /Users/rodrigo/.travis/travis.sh ] && source /Users/rodrigo/.travis/travis.sh
 

@@ -45,3 +45,4 @@
   path = ~/.dotfiles/gitconfigs/github_config
 [commit]
 	gpgsign = true
+  verbose = true

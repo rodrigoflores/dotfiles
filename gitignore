@@ -53,3 +53,7 @@ flycheck_*.el
 
 # projectiles files
 .projectile
+
+GPATH
+GTAGS
+GRTAGS

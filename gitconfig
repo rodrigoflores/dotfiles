@@ -16,6 +16,7 @@
   ci = commit
   br = branch
   co = checkout
+  com = checkout master
   df = diff
   dc = diff --cached
   l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'

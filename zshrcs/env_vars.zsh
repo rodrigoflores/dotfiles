@@ -8,7 +8,7 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:/Users/flores/anaconda2/bin
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home
 
-export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.9.2-0.8.2.1"
+export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.11-0.9.0.1"
 export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"
 
 export DATOMIC_HOME="$NU_HOME/datomic/datomic-pro-0.9.4880.6"

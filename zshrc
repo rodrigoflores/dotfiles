@@ -31,10 +31,10 @@ source ~/.dotfiles/zshrcs/git.zsh
 source ~/.dotfiles/zshrcs/history.zsh
 source ~/.dotfiles/zshrcs/keybindings.zsh
 source ~/.dotfiles/zshrcs/rbenv.zsh
-source ~/.dotfiles/zshrcs/fasd.zsh
 source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 source ~/.dotfiles/zshrcs/export.zsh
+source ~/.dotfiles/zshrcs/autojump.zsh
 
 source ~/.nurc
 

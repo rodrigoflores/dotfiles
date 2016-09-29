@@ -3,5 +3,4 @@ Host *
   TCPKeepAlive no
   ServerAliveInterval 20
   ServerAliveCountMax 10
-  UseRoaming no
 

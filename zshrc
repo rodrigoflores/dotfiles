@@ -31,6 +31,7 @@ source ~/.dotfiles/zshrcs/git.zsh
 source ~/.dotfiles/zshrcs/history.zsh
 source ~/.dotfiles/zshrcs/keybindings.zsh
 source ~/.dotfiles/zshrcs/rbenv.zsh
+source ~/.dotfiles/zshrcs/pyenv.zsh
 source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 source ~/.dotfiles/zshrcs/export.zsh

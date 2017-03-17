@@ -1,5 +1,5 @@
 {:user
- {:dependencies [[cljdev "0.3.0-SNAPSHOT"]
+ {:dependencies [[cljdev "0.5.0-SNAPSHOT"]
                  [org.clojure/tools.nrepl "0.2.12"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[cider/cider-nrepl "0.14.0"]

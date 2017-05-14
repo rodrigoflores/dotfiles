@@ -46,3 +46,5 @@ source ~/.nurc
 
 fortune ~/.dotfiles/fortune/books
 
+bindkey "ƒ" forward-word
+bindkey "∫" backward-word

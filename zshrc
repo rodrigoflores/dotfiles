@@ -45,3 +45,4 @@ source ~/.nurc
 [ -f /Users/rodrigo/.travis/travis.sh ] && source /Users/rodrigo/.travis/travis.sh
 
 fortune ~/.dotfiles/fortune/books
+

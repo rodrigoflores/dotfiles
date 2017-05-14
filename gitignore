@@ -57,3 +57,5 @@ flycheck_*.el
 GPATH
 GTAGS
 GRTAGS
+
+mortician-result/*

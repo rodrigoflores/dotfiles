@@ -1,2 +1,3 @@
-export PYENV_ROOT=/usr/local/var/pyenv
+export PYENV_ROOT=~/.pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+export PATH="$PYENV_ROOT:$PATH"

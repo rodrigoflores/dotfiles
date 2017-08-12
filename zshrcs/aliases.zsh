@@ -37,7 +37,6 @@ alias tailf='tail -n 100 -f'
 alias squidn='squid -N -d 1'
 
 # Hub and git
-alias git='hub'
 
 alias lr='lein repl'
 alias lrp='lein postman-repl'

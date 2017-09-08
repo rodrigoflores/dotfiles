@@ -1,3 +1,2 @@
-#export RBENV_ROOT=/usr/local/opt/rbenv
-
+export RBENV_ROOT="$HOME/.rbenv"
 eval "$(rbenv init - zsh)"

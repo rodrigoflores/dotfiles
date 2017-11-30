@@ -1,3 +1,4 @@
+
 export ARTIFACTS_S3_BUCKET=nu-artifacts
 export ARTIFACTS_AWS_REGION=sa-east-1
 
@@ -25,5 +26,3 @@ export AWS_DEFAULT_REGION=sa-east-1
 export SHELL=/bin/zsh
 
 export SUBMISSION_PATH=/Users/flores/Code/nu/challenges/backend/submissions
-
-export npm_config_prefix=~/.node_modules

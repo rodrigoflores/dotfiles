@@ -36,7 +36,7 @@ source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 source ~/.dotfiles/zshrcs/export.zsh
 source ~/.dotfiles/zshrcs/autojump.zsh
-
+source /usr/share/nvm/init-nvm.sh
 source ~/.nurc
 
 ### Added by the Heroku Toolbelt

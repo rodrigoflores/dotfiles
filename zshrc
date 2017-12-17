@@ -1,7 +1,9 @@
+# -*- mode: shell-script; -*-
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="juanghurtado"
+ZSH_THEME="gallifrey"
 
 plugins=(git)
 

@@ -46,9 +46,9 @@ alias las='lein ancient :allow-snapshots'
 alias pc='lein midje ; lein postman ; lein ancient :allow-snapshots'
 alias lmp='lein do midje, postman'
 
-# Nu
-alias run-e2e-local='STACK=local SILENT=true bundle exec rspec features'
-alias run-e2e-local-verbose='STACK=local bundle exec rspec features'
-alias black-gate='sudo ssh -N -L 8443:prod-mordor.nubank.com.br:443 54.207.9.245 -l ec2-user -i ~/.ssh/keys/nat.pem -v'
+# XClip
+
+alias setclip="xclip -selection c"
+alias getclip="xclip -selection c -o"
 
 setopt complete_aliases

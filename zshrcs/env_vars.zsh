@@ -11,7 +11,7 @@ export PATH="$NUCLI_HOME:$PATH"
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk/
 
-export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.11-0.9.0.1"
+export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.12-0.10.2.1"
 export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"
 
 export DATOMIC_HOME="$NU_HOME/datomic/datomic-pro-0.9.4880.6"

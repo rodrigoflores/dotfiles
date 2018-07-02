@@ -9,7 +9,7 @@ export PATH="$NUDEV_HOME:$PATH"
 export NUCLI_HOME="$NU_HOME/nucli"
 export PATH="$NUCLI_HOME:$PATH"
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk/
 
 export KAFKA_HOME="$CODE_HOME/kafka/kafka_2.11-0.9.0.1"
 export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"

@@ -26,3 +26,5 @@ export AWS_DEFAULT_REGION=sa-east-1
 export SHELL=/bin/zsh
 
 export SUBMISSION_PATH=/Users/flores/Code/nu/challenges/backend/submissions
+
+export EDITOR="emacsclient -t"

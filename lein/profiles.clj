@@ -1,4 +1,3 @@
-
 {:user
  {:dependencies [[cljdev "0.6.11"]
                  [org.clojure/tools.nrepl "0.2.12"]]

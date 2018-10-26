@@ -45,5 +45,5 @@
   path = ~/.dotfiles/gitconfigs/gpg_config
   path = ~/.dotfiles/gitconfigs/github_config
 [commit]
-  gpgsign = false
+	gpgsign = true
   verbose = true

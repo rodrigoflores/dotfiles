@@ -1,12 +1,12 @@
 {:user
- {:dependencies [[cljdev "0.6.10"]
+ {:dependencies [[cljdev "0.7.0"]
                  [org.clojure/tools.nrepl "0.2.12"]
-                 [spyscope "0.1.6"]]
+                 [com.clojure-goes-fast/clj-memory-meter "0.1.2"]]
   :signing {:gpg-key "C692C2C1"}
-  :plugins [[cider/cider-nrepl "0.16.0"]
+  :plugins [[cider/cider-nrepl "0.18.0"]
+            [refactor-nrepl "2.4.0"]
             [org.clojure/tools.nrepl "0.2.10"]
             [app-with-midje/lein-template "0.4.0"]
-            [refactor-nrepl "2.4.0-SNAPSHOT"]
             [lein-figwheel "0.5.6"]
             [lein-ancient "0.6.7"]
             [lein-midje "3.2"]

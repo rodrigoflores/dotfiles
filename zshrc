@@ -1,7 +1,9 @@
+# -*- mode: shell-script; -*-
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="juanghurtado"
+ZSH_THEME="gallifrey"
 
 plugins=(git)
 
@@ -36,7 +38,7 @@ source ~/.dotfiles/zshrcs/secrets.zsh
 source ~/.dotfiles/zshrcs/env_vars.zsh
 source ~/.dotfiles/zshrcs/export.zsh
 source ~/.dotfiles/zshrcs/autojump.zsh
-
+source /usr/share/nvm/init-nvm.sh
 source ~/.nurc
 
 ### Added by the Heroku Toolbelt

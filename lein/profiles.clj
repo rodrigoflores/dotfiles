@@ -6,7 +6,7 @@
   :plugins [[cider/cider-nrepl "0.18.0"]
             [refactor-nrepl "2.4.0"]
             [org.clojure/tools.nrepl "0.2.10"]
-            [app-with-midje/lein-template "0.3.0"]
+            [app-with-midje/lein-template "0.4.0"]
             [lein-figwheel "0.5.6"]
             [lein-ancient "0.6.7"]
             [lein-midje "3.2"]

@@ -1,6 +1,7 @@
 {:user
  {:dependencies [[cljdev "0.7.0"]
-                 [org.clojure/tools.nrepl "0.2.12"]]
+                 [org.clojure/tools.nrepl "0.2.12"]
+                 [com.clojure-goes-fast/clj-memory-meter "0.1.2"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[cider/cider-nrepl "0.18.0"]
             [refactor-nrepl "2.4.0"]

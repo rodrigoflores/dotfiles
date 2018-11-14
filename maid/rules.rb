@@ -42,4 +42,10 @@ Maid.rules do
       trash(path) if 4.weeks.since?(created_at(path))
     end
   end
+
+  rule "Clean desktop" do
+    dir('~/Desktop/*').each do |path|
+      move(path, "~/Downloads/old-files") if 1.days.since?(created_at(path))
+    end
+  end
 end

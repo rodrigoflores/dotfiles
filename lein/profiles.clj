@@ -4,7 +4,7 @@
                  [com.clojure-goes-fast/clj-memory-meter "0.1.2"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[cider/cider-nrepl "0.18.0"]
-            [refactor-nrepl "2.4.0"]
+            [refactor-nrepl "2.4.0-SNAPSHOT"]
             [org.clojure/tools.nrepl "0.2.10"]
             [app-with-midje/lein-template "0.4.0"]
             [lein-figwheel "0.5.6"]

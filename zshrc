@@ -2,8 +2,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
+export LOCALE="en_us.UTF-8"
 
-ZSH_THEME="gallifrey"
+ZSH_THEME="juanghurtado"
 
 plugins=(git)
 
@@ -50,3 +51,5 @@ fortune ~/.dotfiles/fortune/books
 
 bindkey "ƒ" forward-word
 bindkey "∫" backward-word
+
+source ~/.oh-my-git/prompt.sh

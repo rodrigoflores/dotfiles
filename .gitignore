@@ -5,3 +5,4 @@ lein/self-installs/*
 /lein/credentials.clj.gpg
 gitconfigs/gpg_config
 gitconfigs/*
+/fish/fishd.caenarfon

@@ -6,3 +6,4 @@ lein/self-installs/*
 gitconfigs/gpg_config
 gitconfigs/*
 /fish/fishd.caenarfon
+/fish/secret.fish

@@ -28,3 +28,4 @@ export SHELL=/bin/zsh
 export SUBMISSION_PATH=/Users/flores/Code/nu/challenges/backend/submissions
 
 export EDITOR="emacsclient -t"
+

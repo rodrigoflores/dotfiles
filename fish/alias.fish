@@ -36,3 +36,5 @@ alias lmp 'lein do midje, postman'
 
 alias setclip "xclip -selection c"
 alias getclip "xclip -selection c -o"
+
+alias git 'hub'

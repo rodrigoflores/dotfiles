@@ -16,8 +16,6 @@ export RIEMANN_HOME="$CODE_HOME/riemann/riemann-0.2.5"
 
 export DATOMIC_HOME="$NU_HOME/datomic/datomic-pro-0.9.4880.6"
 
-export GITHUB_TOKEN="200ed562032aeb2c6ebafb8e20098ad92ba6ce5f"
-
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 

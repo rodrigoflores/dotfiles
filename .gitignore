@@ -7,3 +7,6 @@ gitconfigs/gpg_config
 gitconfigs/*
 /fish/fishd.caenarfon
 /fish/secret.fish
+/fish/fishd.warwick
+fish/functions/fish_prompt.fish
+maid/maid.log

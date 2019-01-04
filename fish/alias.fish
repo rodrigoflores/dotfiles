@@ -1,4 +1,6 @@
 # Git
+alias git 'hub'
+
 alias g 'git'
 
 alias gap 'git add -p'
@@ -37,4 +39,3 @@ alias lmp 'lein do midje, postman'
 alias setclip "xclip -selection c"
 alias getclip "xclip -selection c -o"
 
-alias git 'hub'

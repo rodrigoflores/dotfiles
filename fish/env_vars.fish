@@ -20,3 +20,5 @@ set LANG en_US.UTF-8
 set -xg AWS_DEFAULT_REGION sa-east-1
 
 set -xg EDITOR "emacsclient -t"
+
+set -xg NVM_DIR /home/rodrigo/.nvm

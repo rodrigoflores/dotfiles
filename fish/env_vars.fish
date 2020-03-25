@@ -3,8 +3,9 @@ set -xg NU_HOME $CODE_HOME/nu
 set -xg NUDEV_HOME $NU_HOME/nudev
 set -xg NUCLI_HOME $NU_HOME/nucli
 
-set -x PATH $PATH /home/rodrigo/Code/nu/nucli
+set -x PATH $PATH $NUCLI_HOME
 set -x PATH $NUDEV_HOME $PATH
+set -x PATH "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_14" $PATH
 
 set -x ARTIFACTS_S3_BUCKET nu-artifacts
 set -x ARTIFACTS_AWS_REGION sa-east-1
@@ -21,6 +22,10 @@ set -xg AWS_DEFAULT_REGION sa-east-1
 
 set -xg EDITOR "emacsclient -t"
 
-set -xg NVM_DIR /home/rodrigo/.nvm
+set -xg NVM_DIR $HOME/.nvm
 
-set -gx autojump_fish /usr/share/autojump/autojump.fish
+set -gx autojump_fish /usr/local/share/autojump/autojump.fish
+
+[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
+
+set -xg ZSH_LOCATION "/usr/local/bin/zsh"

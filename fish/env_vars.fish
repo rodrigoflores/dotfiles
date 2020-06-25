@@ -6,6 +6,7 @@ set -xg NUCLI_HOME $NU_HOME/nucli
 set -x PATH $PATH $NUCLI_HOME
 set -x PATH $NUDEV_HOME $PATH
 set -x PATH "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_14" $PATH
+set -x PATH $HOME/.rbenv/bin $PATH
 
 set -x ARTIFACTS_S3_BUCKET nu-artifacts
 set -x ARTIFACTS_AWS_REGION sa-east-1

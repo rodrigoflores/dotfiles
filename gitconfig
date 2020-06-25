@@ -1,6 +1,7 @@
 [user]
   name = Rodrigo Flores
-  email = rlmflores@fastmail.com
+	email = rodrigo.flores@nubank.com.br
+	signingkey = 51F1449A028BF163
 [core]
 	editor = emacsclient -t
 	excludesfile = ~/.gitignore

@@ -4,11 +4,11 @@
                  [profit "0.1.0-SNAPSHOT"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[app-with-midje/lein-template "0.4.0"]
-            [cider/cider-nrepl "0.21.0"]
+            [cider/cider-nrepl "0.25.1"]
             [lein-figwheel "0.5.6"]
             [lein-ancient "0.6.7"]
             [lein-midje "3.2"]
-            [refactor-nrepl "2.4.0"]
+            [refactor-nrepl "2.5.0"]
             [venantius/yagni "0.1.4"]
             [lein-gorilla "0.3.6"]]
   :injections [(require '$)

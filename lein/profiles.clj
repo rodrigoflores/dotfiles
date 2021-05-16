@@ -8,9 +8,10 @@
             [lein-figwheel "0.5.6"]
             [lein-ancient "0.6.7"]
             [lein-midje "3.2"]
-            [refactor-nrepl "2.5.0"]
+            [refactor-nrepl "2.5.1"]
             [venantius/yagni "0.1.4"]
-            [lein-gorilla "0.3.6"]]
+            [lein-gorilla "0.3.6"]
+            [com.jakemccrary/lein-test-refresh "0.24.1"]]
   :injections [(require '$)
                (#'clojure.core/load-data-readers)
                (set! *data-readers* (.getRawRoot #'*data-readers*))

@@ -32,6 +32,7 @@
 	coam = commit -am
 	cob = checkout -b
 	zip = archive -v --format zip -o archive.zip HEAD
+  plom = pull origin master
 [apply]
   whitespace = warn
 [credential]
@@ -48,3 +49,5 @@
 [commit]
 	gpgsign = true
   verbose = true
+[init]
+	defaultBranch = main

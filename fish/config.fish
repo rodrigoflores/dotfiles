@@ -4,7 +4,9 @@ source $HOME/.dotfiles/fish/secret.fish
 source $HOME/.dotfiles/fish/pyenv.fish
 source $HOME/.dotfiles/fish/rbenv.fish
 
-set fish_greeting
 
-fortune $HOME/.dotfiles/fortune/books
-neofetch
+if status --is-interactive
+   set fish_greeting
+
+   fortune $HOME/.dotfiles/fortune/books
+ end

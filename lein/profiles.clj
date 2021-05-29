@@ -4,7 +4,7 @@
                  [profit "0.1.0-SNAPSHOT"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[app-with-midje/lein-template "0.4.0"]
-            [cider/cider-nrepl "0.25.1"]
+            [cider/cider-nrepl "0.26.0"]
             [lein-figwheel "0.5.6"]
             [lein-ancient "0.6.7"]
             [lein-midje "3.2"]

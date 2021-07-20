@@ -1,7 +1,7 @@
 [user]
   name = Rodrigo Flores
 	email = rodrigo.flores@nubank.com.br
-	signingkey = 51F1449A028BF163
+	signingkey = E06DAE86D62BCD17
 [core]
 	editor = emacsclient -t
 	excludesfile = ~/.gitignore
@@ -51,3 +51,5 @@
   verbose = true
 [init]
 	defaultBranch = main
+[gpg]
+	program = gpg

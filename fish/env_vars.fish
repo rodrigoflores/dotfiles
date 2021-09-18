@@ -24,9 +24,4 @@ set -xg AWS_DEFAULT_REGION sa-east-1
 set -xg EDITOR "emacsclient -t"
 
 set -xg NVM_DIR $HOME/.nvm
-
-set -gx autojump_fish /usr/local/share/autojump/autojump.fish
-
-[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
-
 set -xg ZSH_LOCATION "/usr/local/bin/zsh"

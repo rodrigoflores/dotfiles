@@ -1,0 +1,5 @@
+[includeIf "/Users/rodrigo.flores/dev/nu"]
+[user]
+  name = Rodrigo Flores
+	email = rodrigo.flores@nubank.com.br
+	signingkey = CEA09613872513A9

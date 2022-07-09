@@ -1,9 +1,11 @@
 [user]
   name = Rodrigo Flores
 	email = flores@hey.com
-	signingkey = B31F39C95D076FCD
+	signingkey = CEA09613872513A9
+[includeIf "gitdir:/Users/rodrigo.flores/dev/nu"]
+  path = ./nubank_gitconfig
 [core]
-	editor = emacsclient -t
+	editor = emacsclient  --create-frame
 	excludesfile = ~/.gitignore
 [color]
   ui = auto
@@ -53,3 +55,10 @@
 	defaultBranch = main
 [gpg]
 	program = gpg
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	clean = git-lfs clean -- %f
+	required = True
+[github]
+	user = rodrigoflores

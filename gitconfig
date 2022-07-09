@@ -1,8 +1,7 @@
 [user]
   name = Rodrigo Flores
 	email = flores@hey.com
-	signingkey = CEA09613872513A9
-[includeIf "gitdir:/Users/rodrigo.flores/dev/nu"]
+[includeIf "gitdir:~/dev/nu"]
   path = ./nubank_gitconfig
 [core]
 	editor = emacsclient  --create-frame

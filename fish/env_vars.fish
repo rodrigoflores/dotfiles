@@ -3,12 +3,18 @@ set -xg NU_HOME $CODE_HOME/nu
 set -xg NUDEV_HOME $NU_HOME/nudev
 set -xg NUCLI_HOME $NU_HOME/nucli
 
-set -x PATH $PATH $NUCLI_HOME
-set -x PATH $NUDEV_HOME $PATH
-set -x PATH "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_14" $PATH
-set -x PATH $HOME/.rbenv/bin $PATH
-set -x PATH /Applications/Emacs.app/Contents/MacOS $PATH
-set -x PATH $HOME/.cargo/bin $PATH
+fish_add_path $NUCLI_HOME
+fish_add_path /usr/local/bin
+fish_add_path /usr/bin
+fish_add_path /bin
+fish_add_path /usr/sbin
+fish_add_path /sbin
+fish_add_path $NUDEV_HOME $PATH
+fish_add_path "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_14"
+fish_add_path $HOME/.rbenv/bin
+fish_add_path /Applications/Emacs.app/Contents/MacOS
+fish_add_path $HOME/.cargo/bin
+fish_add_path /opt/homebrew/bin
 
 set -x ARTIFACTS_S3_BUCKET nu-artifacts
 set -x ARTIFACTS_AWS_REGION sa-east-1

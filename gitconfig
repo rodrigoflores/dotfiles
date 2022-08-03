@@ -1,7 +1,9 @@
 [user]
   name = Rodrigo Flores
 	email = flores@hey.com
-  signingkey = E06DAE86D62BCD17
+  #  signingkey = E06DAE86D62BCD17
+[includeif "gitdir:~/Developer"]
+  path = ~/.dotfiles/silver_arrow_gitconfig
 [includeIf "gitdir:~/dev/nu/"]
   path = ~/.dotfiles/nubank_gitconfig
 [core]

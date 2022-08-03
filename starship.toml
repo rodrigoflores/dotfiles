@@ -1,0 +1,37 @@
+# format = """
+# $directory$git_branch$git_commit$java
+# $username$hostname$character
+# """
+
+[character]
+success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[✖](bold red)" 
+
+[git_commit]
+commit_hash_length = 8
+tag_symbol = "🔖 "
+only_detached = false
+
+[time]
+disabled = false
+
+[cmd_duration]
+min_time = 500
+format = "underwent [$duration](bold yellow)"
+
+[git_branch]
+#symbol = " "
+ignore_branches = ["master", "main"]
+
+[username]
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[$ssh_symbol$hostname]($style) "
+
+[directory]
+format = "[$before_root_path]($style)[$path]($style)[$lock_symbol]($lock_style) "
+#format = "📂 [$path]($style)[$read_only]($read_only_style) "
+style = "bold cyan"
+truncation_length = 4

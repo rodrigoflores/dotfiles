@@ -1,8 +1,13 @@
 [user]
   name = Rodrigo Flores
-  email = rlmflores@fastmail.com
+	email = flores@hey.com
+  #  signingkey = E06DAE86D62BCD17
+[includeif "gitdir:~/Developer"]
+  path = ~/.dotfiles/silver_arrow_gitconfig
+[includeIf "gitdir:~/dev/nu/"]
+  path = ~/.dotfiles/nubank_gitconfig
 [core]
-	editor = emacsclient -t
+	editor = emacsclient  --create-frame
 	excludesfile = ~/.gitignore
 [color]
   ui = auto
@@ -31,6 +36,7 @@
 	coam = commit -am
 	cob = checkout -b
 	zip = archive -v --format zip -o archive.zip HEAD
+  plom = pull origin master
 [apply]
   whitespace = warn
 [credential]
@@ -47,3 +53,14 @@
 [commit]
 	gpgsign = true
   verbose = true
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	clean = git-lfs clean -- %f
+	required = True
+[github]
+	user = rodrigoflores

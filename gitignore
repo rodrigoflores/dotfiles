@@ -11,6 +11,7 @@ butlerfile
 \#*#
 #.*
 *~
+.cpcache/*
 
 *~
 \#*\#
@@ -60,3 +61,6 @@ GRTAGS
 
 mortician-result/*
 rlmflores-TODO.org
+
+.lsp/*
+.clj-kondo/*

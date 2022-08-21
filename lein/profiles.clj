@@ -10,6 +10,7 @@
             [lein-midje "3.2"]
             [refactor-nrepl "3.5.2"]
             [venantius/yagni "0.1.4"]
+            [refactor-nrepl "3.5.4"]
             [lein-gorilla "0.3.6"]
             [cider/cider-nrepl "0.28.4"]
             [com.jakemccrary/lein-test-refresh "0.24.1"]]

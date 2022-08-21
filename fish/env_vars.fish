@@ -17,6 +17,7 @@ fish_add_path /Applications/Emacs.app/Contents/MacOS
 fish_add_path $HOME/.cargo/bin
 fish_add_path -m /opt/homebrew/bin
 fish_add_path -m /usr/local/bin
+fish_add_path -m /Applications/Postgres.app/Contents/Versions/latest/bin/
 
 set -x ARTIFACTS_S3_BUCKET nu-artifacts
 set -x ARTIFACTS_AWS_REGION sa-east-1

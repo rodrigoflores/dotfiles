@@ -9,8 +9,9 @@ error_symbol = "[✖](bold red)"
 
 [git_commit]
 commit_hash_length = 8
-tag_symbol = "🔖 "
 only_detached = false
+tag_disabled = true
+#disabled = true
 
 [time]
 disabled = false

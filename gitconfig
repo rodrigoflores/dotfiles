@@ -6,6 +6,8 @@
   path = ~/.dotfiles/silver_arrow_gitconfig
 [includeIf "gitdir:~/dev/nu/"]
   path = ~/.dotfiles/nubank_gitconfig
+[includeIf "gitdir:~/dev/"]
+  path = ~/.dotfiles/nubank_gitconfig
 [core]
 	editor = emacsclient  --create-frame
 	excludesfile = ~/.gitignore
@@ -64,3 +66,5 @@
 	required = True
 [github]
 	user = rodrigoflores
+[url "git@github.com:"]
+  insteadOf = git://github.com/

@@ -1,7 +1,7 @@
 {:user
  {:dependencies [[org.clojure/tools.nrepl "0.2.13"]
                  [com.clojure-goes-fast/clj-memory-meter "0.1.2"]
-                 [cider/cider-nrepl "0.28.5"]
+                 [cider/cider-nrepl "0.30.0"]
                  [profit "0.1.0-SNAPSHOT"]]
   :signing {:gpg-key "C692C2C1"}
   :plugins [[app-with-midje/lein-template "0.4.0"]
@@ -10,7 +10,7 @@
             [lein-midje "3.2"]
             [refactor-nrepl "3.5.5"]
             [venantius/yagni "0.1.4"]
-            [refactor-nrepl "3.5.4"]
+            [refactor-nrepl "3.6.0"]
             [lein-gorilla "0.3.6"]
 ;;            [cider/cider-nrepl "0.28.4"]
             [cider/cider-nrepl "0.28.5"]

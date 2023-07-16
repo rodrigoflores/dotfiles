@@ -10,9 +10,13 @@ set -U SXHKD_SHELL /usr/bin/bash
 
 starship init fish | source
 
-# https://unix.stackexchange.com/questions/278649/how-can-i-check-if-a-shell-is-login-interactive-batch-in-fish
-if status --is-interactive
-   neofetch
+set --erase fish_greeting
 
-   fortune $HOME/.dotfiles/fortune/books
- end
+source "$HOME/.dotfiles/fish/fish_greeting.fish"
+
+# https://unix.stackexchange.com/questions/278649/how-can-i-check-if-a-shell-is-login-interactive-batch-in-fish
+# if status --is-interactive
+#    neofetch
+
+#    fortune $HOME/.dotfiles/fortune/books
+#  end

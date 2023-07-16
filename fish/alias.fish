@@ -1,5 +1,5 @@
 # Git
-alias git 'hub'
+#alias git 'hub'
 
 alias g 'git'
 

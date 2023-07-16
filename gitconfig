@@ -8,6 +8,8 @@
   path = ~/.dotfiles/nubank_gitconfig
 [includeIf "gitdir:~/dev/"]
   path = ~/.dotfiles/nubank_gitconfig
+[includeif "gitdir:~/Code/"]
+  path = ~/.dotfiles/caenarfon_gitconfig
 [core]
 	editor = emacsclient  --create-frame
 	excludesfile = ~/.gitignore

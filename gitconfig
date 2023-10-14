@@ -1,7 +1,7 @@
 [user]
   name = Rodrigo Flores
 	email = flores@hey.com
-  #  signingkey = E06DAE86D62BCD17
+  signingkey = 4F2C0613AEFC19F0
 [includeif "gitdir:~/Developer"]
   path = ~/.dotfiles/silver_arrow_gitconfig
 [includeIf "gitdir:~/dev/nu/"]

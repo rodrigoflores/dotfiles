@@ -21,7 +21,7 @@
                (set! *data-readers* (.getRawRoot #'*data-readers*))
                ($/set-generic-tags!)]}
  :repl {:dependencies [[org.clojure/tools.nrepl "0.2.13"]
-                       [cider/cider-nrepl "0.28.5"]
+                       [cider/cider-nrepl "0.30.0"]
                        [mx.cider/enrich-classpath "1.9.0"]
                        [nrepl/nrepl "0.9.0"]
                        [com.clojure-goes-fast/clj-memory-meter "0.1.2"]]}}

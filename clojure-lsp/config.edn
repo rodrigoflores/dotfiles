@@ -1,3 +1,4 @@
 ; Docs: https://clojure-lsp.io/settings/#all-settings
 ; Reference: https://github.com/clojure-lsp/clojure-lsp/blob/master/docs/all-available-settings.edn
-{:clean {:ns-inner-blocks-indentation :same-line}}
+{:clean {:ns-inner-blocks-indentation :same-line}
+ :log-path "/tmp/clojure-lsp.out"}

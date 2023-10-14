@@ -11,3 +11,4 @@ gitconfigs/*
 /fish/fishd.warwick
 fish/functions/fish_prompt.fish
 maid/maid.log
+/clojure-lsp/.cache/

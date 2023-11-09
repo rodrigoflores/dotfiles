@@ -16,6 +16,7 @@ fish_add_path $HOME/.rbenv/bin
 fish_add_path /Applications/Emacs.app/Contents/MacOS
 fish_add_path $HOME/.cargo/bin
 fish_add_path -m /opt/homebrew/bin
+fish_add_path -m /opt/homebrew/sbin
 fish_add_path -m /usr/local/bin
 fish_add_path -m /Applications/Postgres.app/Contents/Versions/latest/bin/
 fish_add_path -m /Users/rodrigo.flores/dev/nu/mini-meta-repo/monocli/bin/

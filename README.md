@@ -35,3 +35,11 @@
 ```
 omf install fish-spec foreign-env nvm
 ```
+
+1. Install starship and link starship
+
+```
+brew install starship
+stow -v -t $HOME -v starship
+```
+

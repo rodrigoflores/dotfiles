@@ -27,3 +27,11 @@
 1. Create an empty secret.fish file `touch fish/.config/fish/secret.fish`
 
 1. Run `stow -v -t $HOME -v fish`
+
+1. Install [omf](https://github.com/oh-my-fish/oh-my-fish);
+
+1. Install omf packages
+
+```
+omf install fish-spec foreign-env nvm
+```

@@ -16,8 +16,6 @@ set --erase fish_greeting
 
 source $FISH_CONFIG/fish_greeting.fish
 
-echo "loading new file"
-
 # https://unix.stackexchange.com/questions/278649/how-can-i-check-if-a-shell-is-login-interactive-batch-in-fish
 # if status --is-interactive
 #    neofetch

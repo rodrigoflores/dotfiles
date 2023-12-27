@@ -1,19 +1,20 @@
-source ./env_vars.fish
-source ./secret.fish
-# source $HOME/.dotfiles/fish/alias.fish
-# source $HOME/.dotfiles/fish/secret.fish
-# source $HOME/.dotfiles/fish/pyenv.fish
-# source $HOME/.dotfiles/fish/rbenv.fish
-# source $HOME/.dotfiles/fish/jenv.fish
-# source $HOME/.dotfiles/fish/zoxide.fish
+set FISH_CONFIG '/Users/flores/Developer/dotfiles-revamp/fish/.config/fish'
 
-# set -U SXHKD_SHELL /usr/bin/bash
+source $FISH_CONFIG/env_vars.fish
+source $FISH_CONFIG/secret.fish
+source $FISH_CONFIG/alias.fish
+source $FISH_CONFIG/pyenv.fish
+source $FISH_CONFIG/rbenv.fish
+source $FISH_CONFIG/jenv.fish
+source $FISH_CONFIG/zoxide.fish
 
-# starship init fish | source
+set -U SXHKD_SHELL /usr/bin/bash
 
-# set --erase fish_greeting
+starship init fish | source
 
-# source "$HOME/.dotfiles/fish/fish_greeting.fish"
+set --erase fish_greeting
+
+source $FISH_CONFIG/fish_greeting.fish
 
 echo "loading new file"
 

@@ -23,3 +23,7 @@
 ## Fish
 
 1. Install fish `brew install fish`
+
+1. Create an empty secret.fish file `touch fish/.config/fish/secret.fish`
+
+1. Run `stow -v -t $HOME -v fish`

@@ -3,7 +3,7 @@
 ## TODO
 
 - [x] TMux
-- [ ] Fish
+- [x] Fish
 - [ ] EMacs
 - [ ] Git
 - [ ] Gitmoji

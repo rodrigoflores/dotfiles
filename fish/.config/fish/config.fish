@@ -1,4 +1,4 @@
-set FISH_CONFIG '/Users/flores/Developer/dotfiles-revamp/fish/.config/fish'
+set FISH_CONFIG "$HOME/.config/fish"
 
 source $FISH_CONFIG/env_vars.fish
 source $FISH_CONFIG/secret.fish

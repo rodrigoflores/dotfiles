@@ -5,7 +5,7 @@
 - [x] TMux
 - [x] Fish
 - [ ] EMacs
-- [ ] Git
+- [x] Git
 - [ ] Gitmoji
 
 ## Tmux

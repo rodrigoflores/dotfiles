@@ -43,3 +43,14 @@ brew install starship
 stow -v -t $HOME -v starship
 ```
 
+## Git
+
+1. Install git
+
+```
+brew install git
+```
+
+1. Grab a personal file with name, email, signingkey and github - create it as `~/.gitconfig.local`
+
+1. Link gitconfig and global gitignore

@@ -1,0 +1,57 @@
+[include]
+  path = ~/.gitconfig.local
+[core]
+	editor = emacsclient  --create-frame
+	excludesfile = ~/.gitignore
+[color]
+  ui = auto
+[push]
+  default = current
+[branch]
+  autosetuprebase = always
+[alias]
+  track = checkout -t
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  com = checkout master
+  df = diff
+  dc = diff --cached
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+  ign = ls-files -o -i --exclude-standard
+	ap = add -p
+	s = status -s
+  current-branch = rev-parse --abbrev-ref HEAD
+	coam = commit -am
+	cob = checkout -b
+	zip = archive -v --format zip -o archive.zip HEAD
+  plom = pull origin master
+[apply]
+  whitespace = warn
+[credential]
+	helper = osxkeychain
+[help]
+	autocorrect = 50
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[commit]
+	gpgsign = true
+  verbose = true
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	clean = git-lfs clean -- %f
+	required = True
+[url "git@github.com:"]
+  insteadOf = git://github.com/

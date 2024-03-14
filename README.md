@@ -45,12 +45,24 @@ stow -v -t $HOME -v starship
 
 ## Git
 
-1. Install git
+1. Import the secret file to gpg;
+
+1. Install git;
 
 ```
 brew install git
 ```
 
-1. Grab a personal file with name, email, signingkey and github - create it as `~/.gitconfig.local`
+1. Decrypt the personal file with name, email, signingkey and github - create it as `~/.gitconfig.personal.local`
+
+```
+gpg --output ~/.gitconfig.personal.local --decrypt gitconfig.personal.local.gpg
+```
 
 1. Link gitconfig and global gitignore
+
+1. Decrypt any other relevant files
+
+## Fortune
+
+1. Run `stow -v -t $HOME fortune`

@@ -66,3 +66,17 @@ gpg --output ~/.gitconfig.personal.local --decrypt gitconfig.personal.local.gpg
 ## Fortune
 
 1. Run `stow -v -t $HOME fortune`
+
+## Wezterm
+
+1. Install it
+
+```
+brew install --cask wezterm
+````
+
+1. Run the stow command.
+
+```
+stow -v -t $HOME wezterm
+```

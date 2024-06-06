@@ -13,6 +13,9 @@ set -U SXHKD_SHELL /usr/bin/bash
 starship init fish | source
 atuin init fish --disable-up-arrow | source
 
+# Sets up atuin: https://github.com/atuinsh/atuin?tab=readme-ov-file#shell-plugin
+atuin init fish --disable-up-arrow | source
+
 set --erase fish_greeting
 
 source $FISH_CONFIG/fish_greeting.fish

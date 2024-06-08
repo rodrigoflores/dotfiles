@@ -11,10 +11,13 @@ source $FISH_CONFIG/zoxide.fish
 set -U SXHKD_SHELL /usr/bin/bash
 
 starship init fish | source
-atuin init fish --disable-up-arrow | source
+#atuin init fish --disable-up-arrow | source
 
 # Sets up atuin: https://github.com/atuinsh/atuin?tab=readme-ov-file#shell-plugin
 atuin init fish --disable-up-arrow | source
+
+# Sets up k9s completions
+k9s completion fish | source
 
 set --erase fish_greeting
 

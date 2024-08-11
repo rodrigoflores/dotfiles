@@ -85,10 +85,11 @@ stow -v -t $HOME wezterm
 
 An open-source text expander: https://espanso.org/
 
-Install it
+1. Install it - [instructions here](https://espanso.org/docs/install/mac/)
 
 ```
-
+brew tap espanso/espanso
+brew install espanso
 ```
 
 1. Run the stow command

@@ -80,3 +80,19 @@ brew install --cask wezterm
 ```
 stow -v -t $HOME wezterm
 ```
+
+## Espanso
+
+An open-source text expander: https://espanso.org/
+
+Install it
+
+```
+
+```
+
+1. Run the stow command
+
+```
+stow -v -t $HOME espanso
+```

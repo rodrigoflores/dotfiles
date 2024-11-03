@@ -9,7 +9,6 @@ fish_add_path -a /sbin
 fish_add_path -a "/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_14"
 fish_add_path -a $HOME/.rbenv/bin
 fish_add_path -a /Applications/Emacs.app/Contents/MacOS
-fish_add_path -a $HOME/.cargo/bin
 fish_add_path -m /opt/homebrew/bin
 fish_add_path -m /opt/homebrew/sbin
 fish_add_path -m /usr/local/bin

@@ -8,6 +8,7 @@ source $FISH_CONFIG/rbenv.fish
 source $FISH_CONFIG/jenv.fish
 source $FISH_CONFIG/zoxide.fish
 source $FISH_CONFIG/aws.fish
+source $FISH_CONFIG/rustup.fish
 
 set -U SXHKD_SHELL /usr/bin/bash
 

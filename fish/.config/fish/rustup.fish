@@ -1,0 +1,1 @@
+source $OMF_PATH/pkg/rustup/conf.d/rustup.fish

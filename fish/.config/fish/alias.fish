@@ -2,22 +2,14 @@
 #alias git 'hub'
 
 alias g 'git'
-
 alias gap 'git add -p'
-
 alias gs 'git s'
-
 alias gd 'git diff'
 alias gdc 'git diff --cached'
-
 alias gpl 'git pull --rebase'
-
 alias gc 'git commit'
-
 alias gl 'git log --oneline'
-
 alias grh 'git reset --hard'
-
 alias gcom 'git checkout master'
 
 # Misc
@@ -37,3 +29,7 @@ alias getclip "xclip -selection c -o"
 # Kubernetes
 
 alias k "kubectl"
+alias kcls "kubectl config get-contexts"
+
+#Istio
+alias ic "istioctl"

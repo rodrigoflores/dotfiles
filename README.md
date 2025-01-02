@@ -97,3 +97,17 @@ brew install espanso
 ```
 stow -v -t $HOME espanso
 ```
+
+## Zellij
+
+1. Install it
+
+```
+brew install zellij
+```
+
+1. Run the stow command
+
+```
+stow -v -t $HOME zellij
+```

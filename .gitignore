@@ -1,3 +1,6 @@
 fish/.config/fish/secret.fish
 /fish/.config/fish/fish_variables
 /espanso/Library/Application Support/espanso/match/pii.yml
+
+fish/.config/fish/completions/docker.fish
+fish/.config/fish/completions/kubectl.fish

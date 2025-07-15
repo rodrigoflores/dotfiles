@@ -5,6 +5,9 @@
 	excludesfile = ~/.gitignore
 [color]
   ui = auto
+	diff = auto
+	status = auto
+	branch = auto
 [push]
   default = current
 [branch]
@@ -31,6 +34,8 @@
 	cob = checkout -b
 	zip = archive -v --format zip -o archive.zip HEAD
   plom = pull origin master
+	cm = checkout main
+	cms = checkout master
 [apply]
   whitespace = warn
 [credential]
@@ -53,3 +58,5 @@
 	required = True
 [url "git@github.com:"]
   insteadOf = git://github.com/
+[url "git@github.com:nubank"]
+	insteadOf = https://github.com/nubank

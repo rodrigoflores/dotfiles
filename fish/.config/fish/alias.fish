@@ -33,3 +33,7 @@ alias kcls "kubectl config get-contexts"
 
 #Istio
 alias ic "istioctl"
+
+# Go
+
+alias gr "go run"

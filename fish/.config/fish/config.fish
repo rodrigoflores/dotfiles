@@ -1,7 +1,7 @@
 set FISH_CONFIG "$HOME/.config/fish"
 
-source $FISH_CONFIG/env_vars.fish
 source $FISH_CONFIG/secret.fish
+source $FISH_CONFIG/env_vars.fish
 source $FISH_CONFIG/alias.fish
 source $FISH_CONFIG/pyenv.fish
 source $FISH_CONFIG/rbenv.fish
@@ -9,6 +9,7 @@ source $FISH_CONFIG/jenv.fish
 source $FISH_CONFIG/zoxide.fish
 source $FISH_CONFIG/aws.fish
 source $FISH_CONFIG/rustup.fish
+source $FISH_CONFIG/broot.fish
 
 set -U SXHKD_SHELL /usr/bin/bash
 

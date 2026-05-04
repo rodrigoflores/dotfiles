@@ -1,0 +1,14 @@
+# Hi
+
+font-family = "BerkeleyMono Nerd Font"
+font-size = 16
+
+# 3960x2160 - 990x540
+
+window-save-state = never
+window-height = 42
+window-width = 159
+
+command = /opt/homebrew/bin/fish
+cursor-style = bar
+cursor-style-blink = false

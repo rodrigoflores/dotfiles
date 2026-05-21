@@ -12,3 +12,8 @@ window-width = 159
 command = /opt/homebrew/bin/fish
 cursor-style = bar
 cursor-style-blink = false
+
+shell-integration = fish
+
+keybind = cmd+shift+c=copy_to_clipboard
+keybind = cmd+shift+p=paste_from_clipboard

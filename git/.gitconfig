@@ -60,3 +60,6 @@
   insteadOf = git://github.com/
 [url "git@github.com:nubank"]
 	insteadOf = https://github.com/nubank
+[user]
+	name = Rodrigo Flores
+	email = flores@hey.com

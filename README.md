@@ -111,3 +111,5 @@ brew install zellij
 ```
 stow -v -t $HOME zellij
 ```
+
+## Zed
